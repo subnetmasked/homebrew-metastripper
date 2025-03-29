@@ -1,8 +1,8 @@
 class Metastripper < Formula
   desc "A cross-platform command-line tool for removing privacy-sensitive metadata from files"
   homepage "https://github.com/subnetmasked/MetaStripper"
-  url "https://github.com/subnetmasked/MetaStripper/archive/v0.1.0.tar.gz"
-  sha256 "2936bb599d1af7cdbcd94121d362ab0adc7d8dad212fd5d5bdd1e2744d96e4b6"
+  url "https://github.com/subnetmasked/MetaStripper/archive/v0.1.1.tar.gz"
+  sha256 "4cbd01603dba0ebe621c5231e18178e24a784014f1b4cef4c072b8e78f96c83a"
 
   depends_on "rust" => :build
   depends_on "ffmpeg" => :recommended
